@@ -1,4 +1,4 @@
-// Toggle menu untuk HP
+/ Toggle menu untuk HP
 function toggleMenu() {
   document.getElementById("navLinks").classList.toggle("active");
 }
