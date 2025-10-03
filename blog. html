@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Muhammad Sahlan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sahlan<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="skills.html">Keahlian</a></li>
+        <li><a href="projects.html">Proyek</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>Blog & Catatan</h2>
+    <article>
+      <h3>Pengalaman Belajar Jaringan</h3>
+      <p>Saya belajar konfigurasi OSPF dan routing di lab sekolah. Pengalaman ini menambah wawasan tentang jaringan skala besar.</p>
+    </article>
+    <article>
+      <h3>UI/UX dan Arsitektur</h3>
+      <p>Saya menyukai desain antarmuka karena mirip dengan desain arsitektur: harus fungsional, indah, dan mudah digunakan.</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>© 2025 Muhammad Sahlan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
