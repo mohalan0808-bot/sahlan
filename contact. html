@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - Muhammad Sahlan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sahlan<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="skills.html">Keahlian</a></li>
+        <li><a href="projects.html">Proyek</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Kontak</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>Hubungi Saya</h2>
+    <p>Email: <a href="mailto:sahlan@example.com">sahlan@example.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/username" target="_blank">@username</a></p>
+    <p>GitHub: <a href="https://github.com/mohalan0808-bot" target="_blank">mohalan0808-bot</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Muhammad Sahlan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
